@@ -11,7 +11,3 @@ BEGIN
     DROP DATABASE Trigger_Exercise;
 END
 GO
-
--- Tạo lại database
-CREATE DATABASE Trigger_Exercise;
-GO

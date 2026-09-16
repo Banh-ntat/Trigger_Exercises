@@ -35,10 +35,10 @@ INSERT INTO Employee
     HireDate
 )
 VALUES
-('John','B','Smith','123456789','1955-09-05',
+('John','B','Smith','123456789','1955-05-09',
  '731 Fondren, Houston, TX','M',30000,'333445555',5,'1985-01-01'),
 
-('Franklin','T','Wong','333445555','1945-08-12',
+('Franklin','T','Wong','333445555','1945-12-08',
  '638 Voss, Houston, TX','M',40000,'888665555',5,'1982-01-01'),
 
 ('Alicia','J','Zelaya','999887777','1958-07-19',
@@ -194,3 +194,4 @@ WITH CHECK CHECK CONSTRAINT FK_Employee_Employee;
 ALTER TABLE Department
 WITH CHECK CHECK CONSTRAINT FK_Department_Employee;
 GO
+
